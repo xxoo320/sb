@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>简单网页示例</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+        }
+        h1 {
+            margin: 0;
+        }
+        section {
+            padding: 20px;
+        }
+        .content-box {
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>欢迎来到我的网页</h1>
+    </header>
+
+    <section>
+        <div class="content-box">
+            <h2>关于我们</h2>
+            <p>这是一个简单的静态网页示例，包含基本的 HTML、CSS 和 JavaScript。</p>
+            <button onclick="displayMessage()">点击我!</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 我的网页. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function displayMessage() {
+            alert("你点击了按钮!");
+        }
+    </script>
+</body>
+</html>
